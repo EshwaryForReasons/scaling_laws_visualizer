@@ -1,5 +1,8 @@
 # Scaling Laws Visualizer
 
+[![Preview](./docs/scaling_laws_visualizer_preview.png)](https://eshwaryforreasons.github.io/scaling_laws_visualizer)
+
+
 A web-based toolkit for designing, fitting, comparing, and diagnosing Kaplan-style neural scaling-law experiments.
 
 This project is built for exploring how model size, dataset size, training compute, and validation loss interact in language-model-style training runs. It is especially useful when running many training sweeps and exporting the results as a `pandas` DataFrame / CSV. The app provides interactive plots, scaling-law fits, Kaplan-style comparisons, and practical recommendations for whether a run is model-limited, data-limited, compute-limited, undertrained, or not yet showing clean scaling.
